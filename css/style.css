@@ -1,0 +1,78 @@
+@font-face{
+	font-family:Bebas Neue;
+	src:url("BebasNeue-Regular.ttf");
+}
+
+html,body{
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+	font-family:Bebas Neue;
+	list-style: none;
+}
+
+body{
+	background-color: black;
+}
+
+/* Tout les textes en blanc */
+
+a, h1, li{
+	color: white; 
+	text-decoration: none;
+	list-style: none;
+}
+
+/* IMAGE ID */
+
+img[src="img/identification.png"]{
+	height: 20px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+/* MILILEU - MENU*/
+
+.centre{
+	position: absolute;
+	top: 40%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 100%;
+}
+.centrer{
+	text-align: center;
+	padding: 0;
+}
+.gauche{
+	font-size: 20pt;
+	width: 33%;
+	text-align: center;
+}
+
+.jecherche{
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+}
+
+#Menu ul ul{
+	top: 30px;
+	color: yellow;
+	visibility: hidden;
+	position: absolute;
+}
+
+#Menu ul li:hover ul{
+	visibility: visible;
+	color: white;
+}
+#Menu{
+	background: #181818;
+}
+#Menu li{
+	position: relative;
+}
